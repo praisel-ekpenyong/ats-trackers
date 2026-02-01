@@ -1,0 +1,28 @@
+{
+  "weights": {
+    "must_have": 0.25,
+    "nice_to_have": 0.15,
+    "title_alignment": 0.1,
+    "evidence_strength": 0.2,
+    "recency": 0.1,
+    "search_discoverability": 0.2
+  },
+  "knockout_rules": {
+    "location": true,
+    "work_authorization": true,
+    "required_certs_degree": true
+  },
+  "recency": {
+    "recent_years": 3,
+    "mid_years": 5
+  },
+  "evidence_weights": {
+    "experience": 1.0,
+    "projects": 0.8,
+    "summary": 0.6,
+    "skills": 0.5,
+    "education": 0.3,
+    "certifications": 0.3,
+    "other": 0.2
+  }
+}
